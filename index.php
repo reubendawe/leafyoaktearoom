@@ -8,6 +8,8 @@
 </head>
 <body <?php body_class(); ?>>
 
+<?php get_header(); ?>
+
     <h1>Hello!</h1>
 
     <?php wp_footer(); ?>

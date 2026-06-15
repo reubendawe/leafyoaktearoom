@@ -21,4 +21,16 @@ function leafyoak_theme_assets() {
 
 add_action('wp_enqueue_scripts', 'leafyoak_theme_assets'); 
 
+
+function leafyoak_theme_setup() {
+    // Adds support for a customizable logo in the WordPress Customizer
+    add_theme_support('custom-logo', array(
+        'height'      => 42,
+        'width'       => 150, // You can adjust this width to match your logo's aspect ratio
+        'flex-height' => true,
+        'flex-width'  => true,
+    ));
+}
+add_action('after_setup_theme', 'leafyoak_theme_setup');
+
 ?>

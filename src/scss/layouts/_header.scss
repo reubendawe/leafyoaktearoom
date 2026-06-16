@@ -1,0 +1,93 @@
+.site-header {
+    height: 60px;
+    display: flex;
+    align-items: center;
+    
+    .logo-wrapper {
+        img {
+            width: 200px;
+        }
+    }
+    
+    .call-icon, .email-icon, .search-icon {
+        position: relative;
+        color: transparent;
+        width: 40px;
+        height: 30px;
+        display: inline-block;
+        top: -4px;
+        
+        &:before {
+            content: '';
+            position: absolute;
+            right: 0;
+            width: 1.65em;
+            height: 35px;
+            background-position: center;
+            background-repeat: no-repeat;
+            background-size: contain;
+            display: inline-block;
+        }
+    }
+    
+    .call-icon {
+        &:before {
+            background-image: url('../../../assets/img/call.svg');
+        }
+    }
+    
+    .email-icon {
+        &:before {
+            background-image: url('../../../assets/img/email.svg');
+        }
+    }
+    
+    .search-icon {
+        &:before {
+            background-image: url('../../../assets/img/search.svg');
+        }
+    }
+    
+    #mega-menu-wrap-menu-1 #mega-menu-menu-1 > li.mega-menu-flyout ul.mega-sub-menu li.mega-menu-item a.mega-menu-link {
+        margin-bottom: 16px;
+        line-height: 20px;
+    }
+    
+    .commercial-brand-menu-link a {
+        color: $mf-blue !important;
+        font-weight: $bold !important;
+    }
+}
+
+.breadcrumbs {
+    height: 40px;
+    display: flex;
+    align-items: center;
+    
+    p {
+        font-size: 13px;
+        margin-bottom: 0;
+        
+        a {
+            color: $white;
+            
+            &:visited {
+                color: $white;
+            }
+        }
+    }
+}
+
+@media all and (min-width: 768px) {
+    .site-header {
+        height: 100px;
+    }
+    
+    .breadcrumbs {
+        height: 80px;
+        
+        p {
+            font-size: 14px;
+        }
+    }
+}

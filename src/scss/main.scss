@@ -5,6 +5,10 @@
 // Layouts
 @use "layouts/header";
 
+// Blocks
+@use "layouts/blocks/hero-banner";
+@use "layouts/blocks/info-left-img-right";
+
 h1 {
   color: cyan;
 }

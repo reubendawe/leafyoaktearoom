@@ -1,0 +1,85 @@
+@use 'common/variables' as *;
+
+.faq-section {
+    background-color: $leafyoak-secondary;
+    color: #ffffff;
+    padding: 100px 0;
+
+    .faq-main-title {
+        font-family: $font-primary;
+        font-size: 3.5rem;
+        font-weight: 400;
+        margin-bottom: 20px;
+        letter-spacing: -0.02em;
+    }
+
+    .faq-subtitle {
+        font-family: $font-secondary;
+        font-size: 1.25rem;
+        opacity: 0.85;
+    }
+
+    .faq-grid {
+        padding: 60px 0;
+    }
+
+    .faq-icon-wrapper {
+        color: #ffffff;
+        display: inline-flex;
+        align-items: center;
+        justify-content: center;
+        height: 48px;
+
+        svg {
+            stroke: #ffffff;
+        }
+    }
+
+    .faq-question {
+        font-family: $font-primary;
+        font-size: 1.5rem;
+        margin-bottom: 15px;
+        font-weight: 400;
+    }
+
+    .faq-answer {
+        font-family: $font-secondary;
+        font-size: 1.05rem;
+        line-height: 1.6;
+        opacity: 0.8;
+        max-width: 340px;
+    }
+
+    .faq-footer-row {
+        margin-top: 40px;
+    }
+
+    .faq-footer-title {
+        font-family: $font-primary;
+        font-size: 2.8rem;
+        margin-bottom: 15px;
+    }
+
+    .faq-footer-subtitle {
+        font-family: $font-secondary;
+        font-size: 1.15rem;
+        opacity: 0.85;
+        margin-bottom: 25px;
+    }
+
+    .btn-outline-custom {
+        font-family: $font-secondary;
+        color: #ffffff;
+        border: 1px solid rgba(255, 255, 255, 0.4);
+        padding: 10px 32px;
+        border-radius: 6px;
+        background: transparent;
+        transition: all 0.3s ease;
+
+        &:hover {
+            background-color: #ffffff;
+            color: $leafyoak-secondary;
+            border-color: #ffffff;
+        }
+    }
+}

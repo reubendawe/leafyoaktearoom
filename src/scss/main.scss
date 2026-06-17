@@ -1,5 +1,5 @@
 // Common
-@use "common/variables";
+@use "common/variables" as *;
 @use "common/global";
 
 // Layouts
@@ -8,6 +8,7 @@
 // Blocks
 @use "layouts/blocks/hero-banner";
 @use "layouts/blocks/info-left-img-right";
+@use "layouts/blocks/faq-section";
 
 h1 {
   color: cyan;

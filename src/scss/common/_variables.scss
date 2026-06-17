@@ -1,5 +1,10 @@
 // BRAND COLOURS
-$leafyoak-primary: #455956;
+$leafyoak-primary: #4D706B;
+$leafyoak-secondary: #262F2E;
+
+// TYPOGRAPHY
+$font-primary: 'Playfair Display', serif; // For headings
+$font-secondary: 'Crimson Text', serif; // For body & buttons
 
 body {
     background-color: $leafyoak-primary;

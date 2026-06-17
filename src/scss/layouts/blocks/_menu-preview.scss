@@ -1,11 +1,11 @@
 @use 'common/variables' as *;
 
-.faq-section {
-    background-color: $leafyoak-primary;
+.menu-preview {
+    background-color: $leafyoak-secondary;
     color: #ffffff;
     padding: 100px 0;
 
-    .faq-main-title {
+    .menu-main-title {
         font-family: $font-primary;
         font-size: 3.5rem;
         font-weight: 400;
@@ -13,17 +13,17 @@
         letter-spacing: -0.02em;
     }
 
-    .faq-subtitle {
+    .menu-subtitle {
         font-family: $font-secondary;
         font-size: 1.25rem;
         opacity: 0.85;
     }
 
-    .faq-grid {
+    .menu-grid {
         padding: 60px 0;
     }
 
-    .faq-icon-wrapper {
+    .menu-icon-wrapper {
         color: #ffffff;
         display: inline-flex;
         align-items: center;
@@ -35,14 +35,14 @@
         }
     }
 
-    .faq-question {
+    .menu-question {
         font-family: $font-primary;
         font-size: 1.5rem;
         margin-bottom: 15px;
         font-weight: 400;
     }
 
-    .faq-answer {
+    .menu-answer {
         font-family: $font-secondary;
         font-size: 1.05rem;
         line-height: 1.6;
@@ -50,17 +50,17 @@
         max-width: 340px;
     }
 
-    .faq-footer-row {
+    .menu-footer-row {
         margin-top: 40px;
     }
 
-    .faq-footer-title {
+    .menu-footer-title {
         font-family: $font-primary;
         font-size: 2.8rem;
         margin-bottom: 15px;
     }
 
-    .faq-footer-subtitle {
+    .menu-footer-subtitle {
         font-family: $font-secondary;
         font-size: 1.15rem;
         opacity: 0.85;

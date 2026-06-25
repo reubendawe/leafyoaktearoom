@@ -1,0 +1,10 @@
+@use "../common/variables" as *;
+
+.site-footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: $leafyoak-secondary;
+    color: #ffffff;
+    height: 250px;
+}
